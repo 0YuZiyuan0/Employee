@@ -5,11 +5,7 @@ Employee Management SystemУчебный проект, демонстрирую�
 src/
 └── lesson1/
     ├── Employee.java        # Абстрактный базовый класс
-    ├── Developer.java       # Класс разработчика
-    ├── Manager.java         # Класс менеджера
-    ├── Intern.java          # Класс интерна
-    ├── Workable.java        # Интерфейс отвечающий за рабочее поведение
-    ├── Reportable.java      # Интерфейс отвечающий за генерацию отчета по сторудникам
+
     └── Main.java            # Точка входа
     
 
@@ -25,26 +21,6 @@ email
 position
 department
 salary
-hireDate
-programmingLanguage (для Developer)
-
-Метод            	 Описание
-calculateBonus()   Расчёт бонуса (10% для Developer)
-work()	           Выполнение рабочих обязанностей
-takeBreak()      	 Информация о перерыве
-
-Использованные концепции OOP
-Концепция                         	Реализация
-Абстракция	                        Класс Employee с абстрактным методом calculateBonus()
-Наследование	                      Developer extends Employee
-Полиморфизм	                        Переопределение методов в дочерних классах
-Инкапсуляция	                      private / protected поля, публичные геттеры
-Композиция	                        Builder как статический вложенный класструднике
-
-
-
- Дальнейшие улучшения (планы)
-???
 
 
 
