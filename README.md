@@ -5,11 +5,7 @@ Employee Management SystemУчебный проект, демонстрирую�
 src/
 └── lesson1/
     ├── Employee.java        # Абстрактный базовый класс
-    ├── Developer.java       # Класс разработчика
-    ├── Manager.java         # Класс менеджера
-    ├── Intern.java          # Класс интерна
-    ├── Workable.java        # Интерфейс отвечающий за рабочее поведение
-    ├── Reportable.java      # Интерфейс отвечающий за генерацию отчета по сторудникам
+
     └── Main.java            # Точка входа
     
 
